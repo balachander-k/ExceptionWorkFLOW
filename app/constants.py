@@ -1,0 +1,32 @@
+EXCEPTION_STATUSES = {
+    "DRAFT",
+    "SUBMITTED",
+    "IN_REVIEW",
+    "APPROVED",
+    "REJECTED",
+    "RETURNED",
+    "CLOSED",
+}
+
+APPROVAL_STATUSES = {
+    "PENDING",
+    "APPROVED",
+    "REJECTED",
+    "RETURNED",
+}
+
+INSIGHT_STATUSES = {
+    "OPEN",
+    "ACTED",
+    "IGNORED",
+}
+
+USER_ROLES = {
+    "STORE_MANAGER",
+    "REGIONAL_MANAGER",
+    "FINANCE",
+    "SUPPLY_CHAIN",
+    "AUDIT",
+}
+
+APPROVAL_ACTIONS = {"APPROVE", "REJECT", "RETURN"}
